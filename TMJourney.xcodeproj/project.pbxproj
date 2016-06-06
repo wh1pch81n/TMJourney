@@ -12,6 +12,7 @@
 		2F26352C1D04F8A400D31C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F26352A1D04F8A400D31C13 /* Main.storyboard */; };
 		2F26352E1D04F8A400D31C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F26352D1D04F8A400D31C13 /* Assets.xcassets */; };
 		2F2635311D04F8A400D31C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F26352F1D04F8A400D31C13 /* LaunchScreen.storyboard */; };
+		2F2635391D04F8D400D31C13 /* TMAgendaViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2635381D04F8D400D31C13 /* TMAgendaViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2F26352D1D04F8A400D31C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F2635301D04F8A400D31C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F2635321D04F8A400D31C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2635381D04F8D400D31C13 /* TMAgendaViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMAgendaViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2F2635261D04F8A400D31C13 /* AppDelegate.swift */,
 				2F2635281D04F8A400D31C13 /* ViewController.swift */,
+				2F2635381D04F8D400D31C13 /* TMAgendaViewerViewController.swift */,
 				2F26352A1D04F8A400D31C13 /* Main.storyboard */,
 				2F26352D1D04F8A400D31C13 /* Assets.xcassets */,
 				2F26352F1D04F8A400D31C13 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2635291D04F8A400D31C13 /* ViewController.swift in Sources */,
+				2F2635391D04F8D400D31C13 /* TMAgendaViewerViewController.swift in Sources */,
 				2F2635271D04F8A400D31C13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
